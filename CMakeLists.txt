@@ -3,4 +3,4 @@ project(NeuralOrGate)
 
 set(CMAKE_CXX_STANDARD 11)
 
-add_executable(NeuralOrGate main.cpp)
+add_executable(NeuralOrGate main.cpp NeuralNetwork/Neuron/Neuron.h NeuralNetwork/Net/Net.h NeuralNetwork/Neuron/Neuron.cpp NeuralNetwork/Net/Net.cpp)
